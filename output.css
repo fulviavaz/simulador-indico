@@ -571,8 +571,8 @@ video {
   display: flex;
 }
 
-.h-\[1200px\] {
-  height: 1200px;
+.h-\[1300px\] {
+  height: 1300px;
 }
 
 .h-\[1px\] {
@@ -650,6 +650,11 @@ video {
   text-align: center;
 }
 
+.text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
+
 .text-\[15px\] {
   font-size: 15px;
 }
@@ -660,21 +665,6 @@ video {
 
 .text-\[30px\] {
   font-size: 30px;
-}
-
-.text-xl {
-  font-size: 1.25rem;
-  line-height: 1.75rem;
-}
-
-.text-2xl {
-  font-size: 1.5rem;
-  line-height: 2rem;
-}
-
-.text-3xl {
-  font-size: 1.875rem;
-  line-height: 2.25rem;
 }
 
 .font-medium {
@@ -701,38 +691,30 @@ video {
 }
 
 @media (min-width: 768px) {
-  .md\:h-\[700px\] {
-    height: 700px;
+  .md\:h-\[1000px\] {
+    height: 1000px;
   }
 
   .md\:w-\[700px\] {
     width: 700px;
   }
 
-  .md\:text-\[35px\] {
-    font-size: 35px;
-  }
-
   .md\:text-\[20px\] {
     font-size: 20px;
+  }
+
+  .md\:text-\[35px\] {
+    font-size: 35px;
   }
 }
 
 @media (min-width: 1024px) {
-  .lg\:h-\[700px\] {
-    height: 700px;
-  }
-
-  .lg\:w-\[350px\] {
-    width: 350px;
+  .lg\:h-\[1000px\] {
+    height: 1000px;
   }
 
   .lg\:w-\[380px\] {
     width: 380px;
-  }
-
-  .lg\:w-\[980px\] {
-    width: 980px;
   }
 
   .lg\:w-\[900px\] {
@@ -743,22 +725,18 @@ video {
     flex-wrap: nowrap;
   }
 
-  .lg\:text-\[45px\] {
-    font-size: 45px;
-  }
-
   .lg\:text-\[20px\] {
     font-size: 20px;
+  }
+
+  .lg\:text-\[45px\] {
+    font-size: 45px;
   }
 }
 
 @media (min-width: 1280px) {
-  .xl\:h-\[800px\] {
-    height: 800px;
-  }
-
-  .xl\:h-\[700px\] {
-    height: 700px;
+  .xl\:h-\[1000px\] {
+    height: 1000px;
   }
 
   .xl\:w-\[448px\] {
@@ -773,14 +751,6 @@ video {
     width: 980px;
   }
 
-  .xl\:w-\[940px\] {
-    width: 940px;
-  }
-
-  .xl\:w-\[900px\] {
-    width: 900px;
-  }
-
   .xl\:flex-nowrap {
     flex-wrap: nowrap;
   }
@@ -789,16 +759,12 @@ video {
     font-size: 30px;
   }
 
-  .xl\:text-\[55px\] {
-    font-size: 55px;
-  }
-
   .xl\:text-\[50px\] {
     font-size: 50px;
   }
 
-  .xl\:text-\[57px\] {
-    font-size: 57px;
+  .xl\:text-\[55px\] {
+    font-size: 55px;
   }
 }
 
@@ -815,12 +781,12 @@ video {
     margin-top: 50px;
   }
 
-  .\32xl\:h-\[513px\] {
-    height: 513px;
+  .\32xl\:h-\[1000px\] {
+    height: 1000px;
   }
 
-  .\32xl\:h-\[800px\] {
-    height: 800px;
+  .\32xl\:h-\[513px\] {
+    height: 513px;
   }
 
   .\32xl\:w-\[448px\] {
